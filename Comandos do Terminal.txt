@@ -1,0 +1,105 @@
+//-----> REACT
+
+Criar projeto react:
+-npm init
+-npx create-react-app <nome-do-seu-projeto>
+
+
+Criar projeto Next:
+-npm init
+-npx create-next-app <nome-do-seu-projeto>
+
+styled components:
+npm install styled-components@5.3.10
+
+
+hash da senha:
+npm install bcryptjs
+
+
+inicia projeto:
+-npm start
+-npm run dev
+
+router DOM:
+npm i react-router-dom
+
+
+//-----> Node
+
+
+
+[Npm]
+Npm init
+Npm install express
+npm install mysql2
+npm install mongoose
+npm install nodemon -d
+npm install dotenv
+npm install cors
+
+
+"dev": "nodemon src/server.js"
+
+
+-------------------------------------------
+docker --v
+
+
+docker run --name mysql -e MYSQL_ROOT_PASSWORD=root
+-p 3306:3306 -d mysql
+
+
+--------------------------------------------------------------------------
+[Node]
+"start": "node src/index.js",
+""dev": "nodemon src/index.js""
+
+node <arquivo> (inicia node server)
+nodemon<arquivo> (inicia nodemon server)
+
+npm run dev(inicia nodemon)||
+
+
+
+//-----> Git
+
+[Git]
+git init
+git add .
+git status
+git commit -m "mensagem do commit"
+
+git reset
+git log
+
+    Comando: git init
+    Descrição: O comando "git init" é usado para criar um novo repositório Git vazio.
+    Ele inicializa um diretório como um repositório Git, permitindo que você controle
+    as versões e o histórico de alterações dos seus arquivos.
+
+    Comando: git add .
+    Descrição: O comando "git add ." é usado para adicionar
+    todas as modificações e novos arquivos no diretório de trabalho atual ao índice do Git.
+    Essas alterações serão incluídas no próximo commit.
+
+    Comando: git status
+    Descrição: O comando "git status" exibe o status atual do seu repositório Git.
+    Ele mostra informações sobre arquivos modificados,
+    arquivos que foram adicionados ou excluídos e outros detalhes relevantes para o controle de versão.
+
+    Comando: git commit -m "mensagem do commit"
+    Descrição: O comando "git commit" é usado para criar um novo
+    commit no repositório Git. Ele captura o estado atual do índice (staging area)
+    e cria um ponto na linha do tempo com uma mensagem descritiva sobre as alterações realizadas.
+
+    Comando: git reset
+    Descrição: O comando "git reset" é usado para desfazer alterações no
+    seu repositório Git. Dependendo da opção utilizada, ele pode remover commits,
+    desfazer modificações no índice ou desfazer alterações no diretório de trabalho.
+
+    Comando: git log
+    Descrição: O comando "git log" exibe um registro de
+    todos os commits feitos no repositório Git. Ele mostra informações como o hash do
+    commit, autor, data, hora e mensagem associada a cada commit, permitindo visualizar o
+    histórico de alterações do projeto.

@@ -1,0 +1,59 @@
+/* centraliza elemento absolute */
+
+.absolute center{
+    position: 'absolute';
+    top: '50%';
+    left: '50%';
+}
+
+/*  grid de imagens uso de variáveis */
+
+
+
+:root {
+    --escala: 2
+}
+
+
+.cardGrid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 5px;
+}
+
+
+img {
+    width: calc(43px * var(--escala));
+    width: calc(60px * var(--escala));
+}
+
+
+/* centralização */
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+/* Mudar background inteiro */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.App {
+    padding: 1rem;
+    height: 100vh;
+}
+
+
+.dark-theme {
+    background-color: black;
+    color: white;
+}

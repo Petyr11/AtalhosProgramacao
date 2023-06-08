@@ -1,0 +1,45 @@
+[Git]
+0)tenha um repoitório vazio no github.
+1)git init
+2)git add .
+3)git commit -m "mensagem do commit"
+
+3.5)git remote add origin <nome do repo> (apenas uma vez)
+
+exemplo de nome de reposítorio: https://github.com/Petyr11/RepositoryTeste.git
+
+
+4)git push (irá para o repositório definido acima)
+
+
+
+clonar reposítorio já existente:
+git clone https://github.com/username/my-project.git
+
+
+
+
+Guia do chatGPT
+
+
+    1)Inicialize um repositório local: Dentro do diretório do seu projeto, 
+    execute o comando git init para iniciar um repositório Git.
+
+    2)Adicione os arquivos: Use o comando git add . para adicionar todos 
+    os arquivos do seu projeto ao stage area, ou seja, prepará-los para o commit.
+
+    3)Faça o commit das alterações: Execute o comando git commit -m "Mensagem do commit" 
+    para criar um commit com as alterações adicionadas ao stage area. Substitua "Mensagem do commit" por uma descrição clara e concisa das alterações.
+
+    4)Crie um repositório remoto: No GitHub, crie um novo repositório vazio. Ele será o destino 
+    para onde você enviará seu projeto.
+
+    5)Adicione o repositório remoto: Utilize o comando git remote add origin <URL do repositório> para adicionar o 
+    repositório remoto como "origin". Substitua <URL do repositório> pela URL do repositório remoto no GitHub.
+
+    6)Envie as alterações para o repositório remoto: Use o comando git push -u origin <branch> 
+    para enviar as alterações do seu repositório local para o repositório remoto. Substitua <branch> pelo nome do branch que deseja enviar as alterações (geralmente é "main" ou "master").
+
+
+Após executar esses comandos, seu projeto será enviado para o repositório remoto do Git. As alterações subsequentes podem ser enviadas usando apenas git push, desde que você esteja no branch correto.
+Lembre-se de substituir as informações necessárias, como a URL do repositório e o nome do branch, pelos valores corretos para o seu projeto.
