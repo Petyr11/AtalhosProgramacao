@@ -10,6 +10,9 @@ exemplo de nome de reposítorio: https://github.com/Petyr11/RepositoryTeste.git
 
 
 4)git push -u origin main (irá para o repositório definido acima)
+" -u origin main" só deve ser necessário na primeira vez.
+
+
 
 
 
