@@ -9,7 +9,7 @@
 exemplo de nome de reposítorio: https://github.com/Petyr11/RepositoryTeste.git
 
 
-4)git push (irá para o repositório definido acima)
+4)git push -u origin main (irá para o repositório definido acima)
 
 
 
